@@ -1,0 +1,26 @@
+.example{
+    background-color: brown;
+}
+img{
+    display: none;
+}
+.box{
+    border-color: 2px solid black;
+}
+@media only screen and (min-width:300px) and (max-width:512px){
+    .example{
+        background-color: aqua;
+        font-style: italic;
+        font-size: large;
+    }
+    img{
+        display:inline;
+    }
+   
+}
+ 
+div{
+    display:grid;
+    grid-auto-columns:auto;
+    grid-template-rows: 1fr 1fr;
+}

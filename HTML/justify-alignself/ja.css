@@ -1,0 +1,13 @@
+.Container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.box1{
+    
+    justify-self: center;
+}
+
+.box5{
+   align-self: stretch;
+}

@@ -1,0 +1,22 @@
+p::first-letter{
+    font-size: 50px;
+    color:blueviolet;
+    text-shadow: 4px 2px;
+}
+
+div::first-line{
+    font-size: 30px;
+    font-style:italic;
+    text-decoration: underline;
+    color: rgb(43, 255, 0);
+}
+u::before{
+    content:"⏪";
+}
+u::after{
+    content: "⏩";
+}
+a::before{
+    content: "⚡";
+}
+

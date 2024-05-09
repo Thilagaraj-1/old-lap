@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span>p{
+            color:aqua;
+        }
+        div span{
+            font-style:italic;
+        }
+        div+span{
+            font-size: 50px;
+        }
+        div~span{
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>first</span><br>
+        <span>second</span>
+        <span>
+            <p>Third</p>
+        </span>
+        <span>Fourth</span>
+    </div>
+    <span>fifth</span><br>
+    <span>sixth</span>
+    
+</body>
+</html>

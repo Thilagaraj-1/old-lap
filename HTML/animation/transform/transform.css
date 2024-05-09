@@ -1,0 +1,14 @@
+.cartoon{
+    /* transform: translateX(100px); */
+    /* transform: translateY(180px); */
+    /* transform: translate(150px,200px); */
+    /* transform: rotateX(350deg); */
+    /* transform: rotateY(200deg); */
+    /* transform: rotateZ(100deg); */
+    /* transform: rotate(250deg); */
+     transform: rotate3d(1,1,1,100deg); 
+    /* transform: scaleX(4.5); */
+    /* transform: scaleY(10.5); */
+    /* transform: scale(2.5,3.9); */
+    /* transform: scale(1); */
+}

@@ -1,0 +1,15 @@
+div{
+    border: 2px solid orange;
+    height: 200px;
+    width: 500px;
+    background-color: yellow;
+    padding: 50px;
+    margin: 50px;
+}
+button{
+    background-color: burlywood;
+    
+}
+input{
+    width: 250px;
+}

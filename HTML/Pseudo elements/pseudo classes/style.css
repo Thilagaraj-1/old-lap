@@ -1,0 +1,9 @@
+a:visited{
+    color:aqua;
+}  
+.a1:hover{
+    color:black;
+}
+img:hover{
+    opacity: 0.2;
+}

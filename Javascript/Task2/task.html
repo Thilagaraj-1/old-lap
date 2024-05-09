@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic&Toe</title>
+    <style>
+    #container{
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width:350px;
+        height: 350px;
+        justify-content: space-around;
+        transform: translate(110px,150px);  
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        text-align: center;
+        line-height: 100px;
+        font-size: 50px;
+        
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <button id="box1" class="box" onclick="b1()">1</button>
+        <button id="box2" class="box" onclick="b2()">2</button>
+        <button id="box3" class="box" onclick="b3()">3</button>
+        <button id="box4" class="box" onclick="b4()">4</button>
+        <button id="box5" class="box" onclick="b5()">5</button>
+        <button id="box6" class="box" onclick="b6()">6</button>
+        <button id="box7" class="box" onclick="b7()">7</button>
+        <button id="box8" class="box" onclick="b8()">8</button>
+        <button id="box9" class="box" onclick="b9()">9</button>
+    </div>
+    <script src="task.js"></script>
+</body>
+</html>
+<!-- 
+{1,2,3}
+{4,5,6}
+{7,8,9}
+{1,4,7}
+{2,5,8}
+{3,6,9}
+{1,5,9}
+{3,5,7} -->

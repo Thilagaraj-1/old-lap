@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+<body>
+    <h2>
+        <i>Insert Product</i>
+    </h2>
+    <form action="/ModelController" method="post">
+        <tr>
+            <td>Id</td>
+            <td><input type="text" id="pid"/></td>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="pname"/></td>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <td>Description</td>
+            <td><input type="text" id="pdescription"/></td>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <td>Price</td>
+            <td><input type="text" id="pprice"/></td>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <td><input type="button" value="Insert" onclick="insertProduct()"/></td>
+        </tr>
+    </form>
+    <script>
+        function insertProduct(){
+            
+            //Get Data
+            let p_id = document.getElementById("pid").value
+            let p_name = document.getElementById("pname").value
+            let p_description = document.getElementById("pdescription").value
+            let p_price = document.getElementById("pprice").value
+
+            //Pack Data
+            const data = {
+                "id" : p_id,
+                "name" : p_name,
+                "description" : p_description,
+                "price" : p_price
+            }
+
+            //Send Data
+            axios.post("http://localhost:8080/OrdersDB/OrderController",data)
+            .then(res => {
+                console.log(res.data)
+            })
+        }
+        function test(){
+            axios.get("http://localhost:8080/OrdersDB/OrderController")
+            .then(response => {
+                console.log(response.data)
+            })
+        }
+        test()
+    </script>
+</body>
+</html>

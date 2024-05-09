@@ -1,0 +1,11 @@
+p{
+    color: red;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: capitalize;
+    text-indent: 80px;
+    word-spacing: -2px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    text-shadow: 3px 4px rgb(17, 17, 17); 
+}

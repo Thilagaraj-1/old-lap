@@ -1,0 +1,15 @@
+.Container1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+}                   
+
+.box1{
+    display: grid;
+    grid-row: 1/3;
+}
+
+.box7{
+    display: grid;
+    grid-column: 7/5;
+}

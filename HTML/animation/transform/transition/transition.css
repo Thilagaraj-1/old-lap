@@ -1,0 +1,27 @@
+.bean{
+    width: 150px;
+    height: 150px;
+    /* //skew */
+    /* transform: skewX(60deg); */
+    /* transform:skewY(40deg); */
+    /* transform:skew(80deg); */
+    
+    /* Matrix */
+    /* transform:Matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()); */
+    /* transform:Matrix(2,4,-2,2,160,160); */
+
+    /* transition */
+    transition: transform 1s; 
+    transition-timing-function: ease-in-out;  
+    
+    /* transition: transform 3s ease-in; */
+}
+
+.bean:hover{
+    transform: translateX(400px) translateY(200px) rotate(270deg) scale(1.5);
+}
+div{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(0, 183, 255);
+}

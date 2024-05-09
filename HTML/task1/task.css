@@ -1,0 +1,39 @@
+header{
+    height: 100px;
+    
+    
+}
+.impact{
+    
+    height: 500px;
+}
+.first{
+    background-color: rgb(5, 128, 11);
+
+}
+.a{
+    height: 200px;
+    
+}
+.b{
+    border-radius: 20px;
+}
+.c{
+    width: 100px;
+    height: 60px;
+}
+li{
+    list-style-type: none;
+}
+.image{
+    background-image: url(https://www.westend61.de/images/0001353284pw/aerial-view-of-hong-kongs-skyline-with-highrising-apartments-hong-kong-AAEF07746.jpg);
+    height: 400px;
+}
+.kk{
+    height: 300px;
+}
+
+.plan{
+    height: 600px;
+    width: 340px;
+}

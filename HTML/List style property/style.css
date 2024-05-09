@@ -1,0 +1,8 @@
+.fruits ol{
+     list-style-type: upper-latin;
+     list-style-image:url("")
+}
+
+.bikes ul{
+     list-style-type: square;
+}

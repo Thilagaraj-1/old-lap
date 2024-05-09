@@ -1,0 +1,44 @@
+.Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"h h h"
+                         "s c1 c1"
+                         "s c2 c3"
+                         "f f f";  
+    gap: 20px;
+    background-color: rgb(8, 8, 8);
+                              
+}
+
+.header{
+    grid-area: h;
+    background-color: blueviolet;
+    height: 50px;
+}
+
+.sidebar{
+    grid-area: s;
+    background-color: skyblue;
+    height:450px;
+}
+
+
+.content1{
+    grid-area: c1;
+    background-color: blue;
+}
+
+.content2{
+    grid-area: c2;
+    background-color: rgb(5, 5, 102);
+}
+.content3{
+    grid-area: c3;
+    background-color: rgb(5, 5, 102);
+}
+
+.footer{
+    grid-area: f;
+    background-color: blueviolet;
+    height: 50px;
+}

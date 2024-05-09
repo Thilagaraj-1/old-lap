@@ -1,0 +1,12 @@
+.Container1{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(122, 43, 226);
+}
+
+.Container2{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgba(40, 216, 116, 0.877);
+}
+

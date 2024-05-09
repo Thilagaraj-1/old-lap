@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="task.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>                                    
+</head>
+<body>
+    <section class="position-static">
+    <div class= "first row d-flex justify-content-start">
+        <div class="text-white m-3 col-3">✉contact@example.com </div>&nbsp;&nbsp;
+        <div class="text-white m-3 col-3">☏+1 58899 4939 341</div>
+        
+        <div class="p-3  d-flex justify-content-end col m-0">
+            <div><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="25" viewBox="0 0 50 50">
+                <path d="M 34.199219 5.5996094 C 28.256009 5.5996094 23.400391 10.457181 23.400391 16.400391 C 23.400391 16.785135 23.429781 17.149605 23.472656 17.509766 C 16.141762 16.814224 9.5591993 13.067494 5.0683594 7.6601562 A 1.0001 1.0001 0 0 0 4.2773438 7.3007812 A 1.0001 1.0001 0 0 0 3.4316406 7.8046875 C 2.5476787 9.351621 2 11.214034 2 13.199219 C 2 15.562405 2.8180434 17.715053 4.1230469 19.511719 C 3.8757846 19.410652 3.5889897 19.425349 3.3476562 19.304688 A 1.0001 1.0001 0 0 0 1.9003906 20.199219 L 1.9003906 20.300781 C 1.9003906 24.001469 3.807742 27.155702 6.6152344 29.128906 C 6.5637034 29.120706 6.5153064 29.121711 6.4648438 29.113281 A 1.0001 1.0001 0 0 0 5.3515625 30.416016 C 6.5123023 33.898235 9.3526931 36.662552 12.925781 37.576172 C 10.11331 39.223372 6.8834712 40.199219 3.4003906 40.199219 C 2.6003906 40.199219 1.8365929 40.194315 1.2421875 40.109375 A 1.0001 1.0001 0 0 0 0.5625 41.943359 C 5.1122086 44.838628 10.408743 46.5 16.199219 46.5 C 25.525462 46.5 32.830248 42.60559 37.738281 37.037109 C 42.646315 31.468628 45.199219 24.253846 45.199219 17.5 L 45.199219 16.652344 C 47.010105 15.254487 48.661337 13.60786 49.9375 11.644531 A 1.0001 1.0001 0 0 0 48.693359 10.185547 C 48.165362 10.420212 47.55475 10.474381 47.005859 10.658203 C 47.7011 9.7200127 48.301383 8.7065336 48.652344 7.6035156 A 1.0001 1.0001 0 0 0 47.199219 6.4355469 C 45.499905 7.41936 43.612969 8.1303268 41.558594 8.6132812 C 39.607275 6.8020984 37.038549 5.5996094 34.199219 5.5996094 z M 34.199219 7.5996094 C 36.713504 7.5996094 39.059904 8.6850853 40.673828 10.388672 A 1.0001 1.0001 0 0 0 41.613281 10.677734 C 42.934626 10.390485 44.182854 9.9844613 45.384766 9.5039062 C 44.688934 10.433412 43.854953 11.259684 42.884766 11.841797 A 1.0001 1.0001 0 0 0 43.548828 13.689453 C 44.53531 13.541481 45.439415 13.146528 46.388672 12.890625 C 45.537378 13.803338 44.61667 14.650874 43.607422 15.394531 A 1.0001 1.0001 0 0 0 43.199219 16.199219 L 43.199219 17.5 C 43.199219 23.746154 40.805248 30.531372 36.238281 35.712891 C 31.671315 40.89441 24.972976 44.5 16.199219 44.5 C 12.14649 44.5 8.3797763 43.635083 4.9570312 42.064453 C 9.1716125 41.741689 13.039926 40.216826 16.207031 37.794922 A 1.0004308 1.0004308 0 0 0 16.302734 36.287109 A 1.0001 1.0001 0 0 0 15.5 35.900391 C 12.240871 35.900391 9.5097656 33.985527 8.0117188 31.28125 C 8.0766008 31.28295 8.1346327 31.300781 8.1992188 31.300781 C 9.1732927 31.300781 10.147857 31.194481 11.042969 30.970703 A 1.0001 1.0001 0 0 0 11.017578 29.023438 C 7.4284817 28.225862 4.7618144 25.363329 4.1542969 21.738281 C 5.1792732 22.075097 6.2324618 22.329347 7.3378906 22.398438 A 1.0001 1.0001 0 0 0 7.9550781 20.568359 C 5.5205757 18.945358 4 16.265885 4 13.199219 C 4 12.071965 4.2776547 11.025922 4.6542969 10.044922 C 9.688803 15.495995 16.707779 19.212301 24.550781 19.599609 A 1.0002161 1.0002161 0 0 0 24.650391 19.599609 A 1.0002908 1.0002908 0 0 0 24.652344 19.599609 A 1.0002908 1.0002908 0 0 0 25.662109 18.326172 C 25.486299 17.710834 25.400391 17.117057 25.400391 16.400391 C 25.400391 11.543601 29.342429 7.5996094 34.199219 7.5996094 z"></path>
+                </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="25" viewBox="0 0 30 30">
+                    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="25" viewBox="0 0 30 30">
+                    <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="25" viewBox="0 0 50 50">
+                    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                </svg>
+            </div>
+    </div></section>
+    <header class="d-flex row sticky-top bg-success shadow">
+        
+            
+        <div class="container-fluid ">
+            <a class="navbar-brand col-3 fw-bolder fs-1 text-white p-1" href="#">Impact.</a>
+
+        </div>
+        <ul class="nav justify-content-end p-1 mb-5 col ">
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Portfolia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item " href="#">Dropdown 1</a></li>
+                  <li><a class="dropdown-menu" href="#">Deep Dropdown</a>
+                    <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                </li>
+                  <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+    </header>
+    <div class="container-fluid">
+    <div class="row bg-success impact position-relative d-flex ">
+        <div class=" col-6 mt-5 ">
+            <h1 class="text-white ms-4" >Welcome to Impact</h1>
+            <p class="text-white ms-4">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+            
+        </div>
+        <div class="container-fluid">
+            <button type="button" class="btn-lg btn-outline-success ms-5 shadow rounded-3 ">Get started</button>
+            <span class="ms-5 text-white display-6">Watch video
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+              </svg>
+            </span>
+              
+        </div>
+       
+        <img class="col-6 position-absolute top-0 end-0" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/hero-img.svg">    
+    </div>
+    </div>
+    <div class="d-flex justify-content-around container-fluid gap-2 col">
+        <div class="container">
+            <div class="row align-items-start gap-5">
+              <div class="a col bg-success rounded-3 fw-bold text-white text-center fs-4 ">
+                <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="" viewBox="0 0 16 16">
+                  <path d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0zM2 3v7h12V3H2z"/>
+                </svg></span>
+                <p class="col-12 mt-5">lorem ipsum</p>
+              
+              </div>
+              <div class="a col bg-success rounded-3 shadow fw-bold text-white text-center fs-4">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
+                  <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
+                </svg></span>
+                <p class="col-12 mt-5">sed ut persjhiua</p>
+              </div>
+              <div class="a col bg-success rounded-3 fw-bold text-white text-center fs-4">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg></span>
+                <p class="col-12 mt-5">magni dolres</p>
+              </div>
+              <div class="a col bg-success rounded-3 fw-bold text-white text-center fs-4">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-command" viewBox="0 0 16 16">
+                    <path d="M3.5 2A1.5 1.5 0 0 1 5 3.5V5H3.5a1.5 1.5 0 1 1 0-3zM6 5V3.5A2.5 2.5 0 1 0 3.5 6H5v4H3.5A2.5 2.5 0 1 0 6 12.5V11h4v1.5a2.5 2.5 0 1 0 2.5-2.5H11V6h1.5A2.5 2.5 0 1 0 10 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1 1 12.5 5H11zm0 6h1.5a1.5 1.5 0 1 1-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 1 1 3.5 11H5z"/>
+                  </svg>
+                </span>
+                <p class="col-12 mt-5">nemo enim</p>
+              </div>
+            </div>
+    <br>
+    <br>
+    <br>
+
+    <h1 class="text-center"><span class="border-bottom border-dark">About Us</span></h1><br>
+    <p class="text-center">
+      Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop
+    </p>
+    <div class="row">
+      <div class="col-6 ">      
+        <h1>Voluptatem dignissimos provident quasi corporis</h1>
+        <img class="col-12 p-2 b" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/about.jpg"></img>
+        <p>Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.
+
+          Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p>
+      </div>
+      <div class="col-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+      <ul>
+        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+        <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+        
+        
+      </ul>
+        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+        <img class="col-12 p-2 b" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/about-2.jpg">
+      </div>
+    </div>
+    <div class="d-flex justify-content-around p-2">
+      <img class="c" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/clients/client-1.png">
+      <img class="c" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/clients/client-2.png">
+      <img class="c" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/clients/client-3.png">
+      <img class="c" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/clients/client-4.png">
+      <img class="c" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/clients/client-5.png">
+      <img class="c" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/clients/client-6.png">
+    </div>
+    <div class="row d-flex p-4">
+      <div class="col-6"><img class="w-100" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/stats-img.svg">
+      </div>
+      <div class="col-6">
+        
+        <li>
+          <b class="fs-2">232</b> <b>Happy Clients</b>  consequuntur quae diredo para mesta<hr>
+        </li>
+        <li>
+          <b class="fs-2">521</b> <b>Projects</b> adipisci atque cum quia aut<hr>
+        </li>  
+        <li>
+        <b class="fs-2">453</b> <b>Hours</b> Of Support aut commodi quaerat<hr>
+        </li>
+        
+      </div>
+    </div>
+    
+      <div>
+      <div class="container-fluid image rounded-3 p-3 ">
+        <div class="text-center mb-5"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-btn-fill " viewBox="0 0 16 16">
+        <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+      </svg></div>
+      <p class="fs-3 text-center fw-bold text-white mb-5">Call to Action</p>
+      <p class="text-center text-white mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="text-center mb-5"><button class="rounded">call to action</button></div>
+      </div>
+   </div>
+   <br>
+   <br>
+   <h1 class="text-center"><span class="border-bottom border-dark">Our Services</span></h1>
+   <br>
+   <p class="text-center">Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+   <br>
+   <br>
+   <div class="d-flex row justify-content-center gap-5 shadow p-3">
+    <div class="card col-3 p-2" style="width: 18rem;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
+      </svg>
+      <div class="card-body">
+        <h5 class="card-title">Nesciunto mete</h5>
+        <p class="card-text">provident hilis hsklj uwyalkj akusyjhjaN aluhsa saglsh ausLLA8 A8SJKLDJAGk jcldssuzkxskdusk</p>
+        <p>Read more...</p>
+      </div>
+    </div>
+    <div class="card col-3 p-2" style="width: 18rem;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+        <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+      </svg>
+      <div class="card-body">
+        <h5 class="card-title">Eosle comode</h5>
+        <p class="card-text">provident hilis hsklj uwyalkj akusyjhjaN aluhsa saglsh ausLLA8 A8SJKLDJAGk jcldssuzkxskdusk</p>
+        <p>Read more...</p>
+      </div>
+    </div>
+    <div class="card col-3 p-2" style="width: 18rem;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-easel" viewBox="0 0 16 16">
+        <path d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0zM2 3v7h12V3H2z"/>
+      </svg>
+      <div class="card-body">
+        <h5 class="card-title">Ledo markt</h5>
+        <p class="card-text">provident hilis hsklj uwyalkj akusyjhjaN aluhsa saglsh ausLLA8 A8SJKLDJAGk jcldssuzkxskdusk</p>
+        <p>Read more...</p>
+      </div>
+    </div>
+    </div>
+    <br>
+    <div class="d-flex row justify-content-center gap-5 shadow p-3">
+      <div class="card col-3 p-2" style="width: 18rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-app-indicator" viewBox="0 0 16 16">
+          <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+          <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+        </svg>
+        <div class="card-body">
+          <h5 class="card-title">Asperios commodit</h5>
+          <p class="card-text">provident hilis hsklj uwyalkj akusyjhjaN aluhsa saglsh ausLLA8 A8SJKLDJAGk jcldssuzkxskdusk</p>
+          <p>Read more...</p>
+        </div>
+      </div>
+      <div class="card col-3 p-2" style="width: 18rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
+          <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+        </svg>
+        <div class="card-body">
+          <h5 class="card-title">Velit dolermque</h5>
+          <p class="card-text">provident hilis hsklj uwyalkj akusyjhjaN aluhsa saglsh ausLLA8 A8SJKLDJAGk jcldssuzkxskdusk</p>
+          <p>Read more...</p>
+        </div>
+      </div>
+      <div class="card col-3 p-2" style="width: 18rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-chat-square-text" viewBox="0 0 16 16">
+          <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+          <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+        <div class="card-body">
+          <h5 class="card-title">Doleri architocto</h5>
+          <p class="card-text">provident hilis hsklj uwyalkj akusyjhjaN aluhsa saglsh ausLLA8 A8SJKLDJAGk jcldssuzkxskdusk</p>
+          <p>Read more...</p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+    <h1 class="text-center"><span class="border-bottom border-dark">Terminols</span></h1>
+    <br>
+    <p class="text-center">Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
+    
+    <div class="d-flex row-cols-4 justify-content-center gap-4">
+      <div class="card" style="width: 18rem;">
+        <img src="https://thumbs.dreamstime.com/b/just-smile-happy-bearded-man-showing-his-bowing-head-looking-straight-camera-close-up-handsome-foreigner-139651658.jpg" class="card-img-top " alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://media.istockphoto.com/id/862664362/photo/young-tourist-with-camera-in-the-old-town.jpg?s=612x612&w=0&k=20&c=lQlFOenQ4vDpxz7Sy-5oYcLatcUkp_zoHoIfb58kydU=" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://variety.com/wp-content/uploads/2017/10/the-foreigner-jackie-chan.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <h1 class="text-center fw-bolder"><span class="border-bottom border-dark">Portfolio</span></h1>
+    <br>
+    <p class="text-center">Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+    <br>
+    <br>
+    <div class="d-flex gap-5 justify-content-center">
+      <div class="fw-bold fs-5 ">All</div>
+      <div class="fw-bold fs-5 ">App</div>
+      <div class="fw-bold fs-5 ">Product</div>
+      <div class="fw-bold fs-5 ">Branding</div>
+      <div class="fw-bold fs-5 ">Books</div>
+    </div>
+    <br>
+
+
+    <div class="container-fluid d-grid ">
+      <div class="row gap-5">
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-1.jpg" class="card-img-top" alt="...">
+          <h5>App 1</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-1.jpg" class="card-img-top" alt="...">
+          <h5>Product 1</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-1.jpg" class="card-img-top" alt="...">
+          <h5>Branding 1</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row d-flex gap-5">
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-1.jpg" class="card-img-top" alt="...">
+          <h5>Books 1</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-2.jpg" class="card-img-top" alt="...">
+          <h5>App 2</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-2.jpg" class="card-img-top" alt="...">
+          <h5>Product 2</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row d-flex gap-5">
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-2.jpg" class="card-img-top" alt="...">
+          <h5>Branding 2</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-2.jpg" class="card-img-top" alt="...">
+          <h5>Books 2</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-3.jpg" class="card-img-top" alt="...">
+          <h5>App 3</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row d-flex gap-5">
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-3.jpg" class="card-img-top" alt="...">
+          <h5>Product 3</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-3.jpg" class="card-img-top" alt="...">
+          <h5>Branding 3 </h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+        <div class="card col" style="width: 25rem;">
+          <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-3.jpg" class="card-img-top" alt="...">
+          <h5>Books 3</h5>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h1 class="text-center fw-bolder"><span class="border-bottom border-dark">Our Team</span></h1>
+    <br>
+    <p class="text-center">Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+    <br>
+    <br>
+    <div class="d-flex gap-4 ">
+    <div class="card shadow" style="width: 18rem;">
+      <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-1.jpg" class="card-img-top p-3" alt="...">
+      <div class="card-body">
+        <p class="card-text text-center fw-bold">Walter White</p>
+        <p class="fw-lighter text-center">Web Development</p>
+        <div class="d-flex justify-content-between"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg></div>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-2.jpg" class="card-img-top p-3" alt="...">
+      <div class="card-body">
+        <p class="card-text text-center fw-bold">Sarah Jhinson</p>
+        <p class="fw-lighter text-center">Marketing</p>
+        <div class="d-flex justify-content-between"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg></div>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-3.jpg" class="card-img-top p-3" alt="...">
+      <div class="card-body">
+        <p class="card-text text-center fw-bold">William Anderson</p>
+        <p class="fw-lighter text-center">Content</p>
+        <div class="d-flex justify-content-between"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg></div>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-4.jpg" class="card-img-top p-3" alt="...">
+      <div class="card-body">
+        <p class="card-text text-center fw-bold">Amanda Jepson</p>
+        <p class="fw-lighter text-center">Accountant</p>
+        <div class="d-flex justify-content-between"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg></div>
+      </div>
+    </div>
+    </div>
+
+    <br>
+    <h1 class="text-center fw-bolder"><span class="border-bottom border-dark">Pricing</span></h1>
+    <br>
+    <p class="text-center">Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+    <br>
+
+    <div class="d-flex justify-content-center">
+      <div class="plan shadow  p-"><h3 class="text-center">Free Plan</h3><br><br><div class="d-flex justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
+        <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+      </svg></div><br><div class="fw-bolder fs-1 text-center">$0<small class="fw-lighter fs-5">/month</small></div>
+    <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Quam adipiscing vitae proin</p>
+    <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Nec feugiat nisl pretium</p>
+    <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Nulla at volutpat diam uteera</p>
+    <p class="ms-3"><span class="fs-2 fw-lighter">x</span>
+      <del>Pharetra massa massa ultricies</del></p>
+    <p class="ms-3"><span class="fs-2 fw-lighter">x</span><del>Massa ultricies mi quis hendrerit</del></p>  
+    <br><p class="text-success border border-3 rounded-pill w-50 text-center ms-5 fs-3">Buy now</p>
+
+  </div>
+      <div class="plan shadow  p-2 border border-danger border-4 h-25"><h3 class="text-center">Bussiness Plan</h3><br><br><div class="d-flex justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+      </svg></div><br><div class="fw-bolder fs-1 text-center">$29<small class="fw-lighter fs-5">/month</small></div>
+      <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Quam adipiscing vitae proin</p>
+      <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Nec feugiat nisl pretium</p>
+      <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Nulla at volutpat diam uteera</p>
+      <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Pharetra massa massa ultricies</p>
+      <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Massa ultricies mi quis hendrerit</p>
+      <br><p class="text-success border border-3 rounded-pill w-50 text-center ms-5 fs-3">Buy now</p>
+    </div>
+      <div class="plan shadow  p-3"><h3 class="text-center">Developer Plan</h3><br><br><div class="d-flex justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+      </svg></div><br><div class="fw-bolder fs-1 text-center">$49<small class="fw-lighter fs-5">/month</small></div>
+      <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Quam adipiscing vitae proin</p>
+      <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Nec feugiat nisl pretium</p>
+      <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Nulla at volutpat diam uteera</p>
+      <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Pharetra massa massa ultricies</p>
+      <p class="ms-3"><span class="text-success fs-3 fw-bold">&#10003;</span>Massa ultricies mi quis hendrerit</p>
+      <br><p class="text-success border border-3 rounded-pill w-50 text-center ms-5 fs-3">Buy now</p>
+    </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid m-5 d-flex ">
+      <div class="col-3">
+        <h1 class="fw-light">Frequently Asked <p class="fw-bold">Questions?</p></h1>
+        <p class="fw-light">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderi
+        </p>
+      </div>
+      <div class="col-9 ps-5">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <b>1.sjjudhuudnsiuidhdc eugfcehh  egyeg? </b>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus no</div>          </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <b>2.slhsj shdhi duhsnso idhuedn dh?</b>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <b>3.aisnsg wodiw slouy woyudw wweie?</b>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <b>4.papis hoa wudw wpsuiuw fd?</b>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <b>5.siuuwipn osd wpiubwj osu?</b>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</div>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+    <br>
+    <br>
+  </body>
+</html>

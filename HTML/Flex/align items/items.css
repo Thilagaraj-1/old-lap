@@ -1,0 +1,15 @@
+.box{
+    padding: 20px;
+    margin: 20px;
+    height: 50px;
+    background-color: burlywood;
+}
+
+.Container1{
+    display: flex;
+  background-color: aqua;
+    height: 600px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}

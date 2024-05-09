@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete
+    </title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+<body>
+    <div>
+        <h2>
+            <i>Delete Record</i>
+        </h2>
+        Id: <input type="text" id="pid"/><br><br>
+        <input type="button" value="Delete" onclick="deleteProduct()">
+    </div>
+    <script>
+        function deleteProduct(){
+            let p_id = document.getElementById("pid").value
+            axios.delete("http://localhost:8080/OrdersDB/OrderController?id="+p_id)
+            .then(res => {
+                console.log(res.data)
+            })
+        }
+    </script>
+</body>
+
+</html>

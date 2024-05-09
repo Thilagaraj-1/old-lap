@@ -1,0 +1,9 @@
+.Container2{
+    display: grid;
+    grid-template-columns:80px 150px 1fr;
+}    
+
+.Container1{
+    display: grid;
+    grid-template-rows: repeat(2,200px) 90px;
+}

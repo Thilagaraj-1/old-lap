@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+</head>
+<body>
+    <div id="content-div">
+		
+	</div>
+    
+</body>
+<script>
+    	function getContent(){
+		fetch("http://localhost:8080/OrdersDB/OrderController")
+		.then(response => {
+			response.json()
+			.then(json =>{
+				console.log(json)
+				let data = json;
+				let content = ""
+				for(let d of data){
+					content += d.id + "<br>"
+					content += d.name + "<br>"
+					content += d.description + "<br>"
+					content += d.price + "<br>"
+				}
+				document.getElementById("content-div").innerHTML = content
+			})
+		})
+		
+	}
+	getContent()
+</script>
+</html>

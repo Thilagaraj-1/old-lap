@@ -1,0 +1,18 @@
+.box{
+    padding: 10px;
+    margin: 20px;
+    height: 20px;
+    background-color: burlywood;
+    width: 100px;
+
+}
+
+.Container1{
+   display: flex;  
+  background-color: aqua;
+    height: 1000px;
+    
+}
+.box:nth-child(1){
+    flex-grow: 4;
+}

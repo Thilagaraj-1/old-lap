@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            width:350px;
+            height: 350px;
+            justify-content: space-around;
+            transform: translate(110px,150px);  
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            text-align: center;
+            line-height: 100px;
+            font-size: 50px;
+            
+        }
+        </style>
+</head>
+<body>
+    <div id="container">    
+        <button id="b1" class="box" onclick="box1(); myfunc();"></button>
+        <button id="b2" class="box" onclick="box2(); myfunc();"></button>
+        <button id="b3" class="box" onclick="box3(); myfunc();"></button>
+        <button id="b4" class="box" onclick="box4(); myfunc();"></button>
+        <button id="b5" class="box" onclick="box5(); myfunc();"></button>
+        <button id="b6" class="box" onclick="box6(); myfunc();"></button>
+        <button id="b7" class="box" onclick="box7(); myfunc();"></button>
+        <button id="b8" class="box" onclick="box8(); myfunc();"></button>
+        <button id="b9" class="box" onclick="box9(); myfunc();"></button>
+    </div>
+    <script src="tic.js"></script>
+</body>
+</html>

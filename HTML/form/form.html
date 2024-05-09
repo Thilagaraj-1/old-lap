@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h1{
+            font-style: italic;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            
+        }
+        form{
+           border: 1px solid black;
+           width: 500px;
+           margin-left: auto;
+           margin-right: auto;
+           background-color: tomato;
+        }
+        button{
+            width: 100px;
+            background-color: yellowgreen;
+            border-radius: 10px;
+        }
+        div{
+            align-self: self-start;
+        }
+        .space {
+            margin-bottom: 2%;
+        }
+        input{
+            background-color: burlywood;
+            border-radius: 10px;
+            border-color:chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Login</u> <u>Form</u></h1>
+    <form>
+		<h2><div>Firstname</div><input type="text" name="Firstname"/><br><br>
+		<div>Lastname</div><input type="text" name="Lastname"/><br><br>
+		<div class="space">Gender</div>
+                <input type="radio" name="Gender" value="Male">Male</input>
+				<input type="radio" name="Gender" value="Female">Female</input><br><br>
+		<div>Age</div><input type="text" name="Age"/><br><br>
+		<div>E-mail</div><input type="email" name="Email"/><br><br>
+		<button value="submit"><h3>Login</h3></button></h2>
+    </form>
+</body>
+</html>

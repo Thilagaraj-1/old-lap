@@ -1,0 +1,16 @@
+.outline{
+    width: 300px;
+    height: 300px;
+    background-color: darkorange;
+    padding: 10px;
+    margin: 10px;
+    outline-width: 10px;
+    outline-style:double;
+    outline-color: tomato;
+    outline-offset: 10px;}
+.box{
+    background-color: aqua;
+    border: 2px solid gray;
+    height: 200px;
+    width: 150px;
+    overflow-x: scroll;}
